@@ -1,76 +1,60 @@
-## Features
-- Add, View, Delete Expenses
-- Category-based Filtering
-- Total Expense Calculation
-- Persistent Storage using File Handling
+# 💸 Java Expense Tracker
 
-## Tech Stack
-- Java
-- OOP (Object-Oriented Programming)
-- File Handling
-- ArrayList
+A clean and efficient **console-based Expense Tracker** built using **Java**, implementing core backend concepts like **OOP, File Handling, and CRUD operations**.
 
-## Project Structure
-- model → Data classes
-- service → Business logic
-- main → User interaction
+---
 
-## Sample Output
-1. Add Expense
-2. View Expenses
-3. Total Expense
-4. Delete Expense
-5. Filter by Category
-6. Exit
-Enter choice: 1
-Enter title: food
-Enter amount: 2000
-Enter category: daily
-Expense added successfully!
+## 🚀 Features
 
-1. Add Expense
-2. View Expenses
-3. Total Expense
-4. Delete Expense
-5. Filter by Category
-6. Exit
-Enter choice: 1
-Enter title: travel
-Enter amount: 5000
-Enter category: transport
-Expense added successfully!
+* ➕ Add Expenses with category
+* 📄 View all expenses in formatted table
+* 🗑️ Delete expenses
+* 🔍 Filter by category
+* 💰 Calculate total expenses
+* 💾 Persistent storage using file handling (`expenses.txt`)
 
-1. Add Expense
-2. View Expenses
-3. Total Expense
-4. Delete Expense
-5. Filter by Category
-6. Exit
-Enter choice: 2
-No    Title           Category        Amount    
--------------------------------------------------------
-1     FOOD            DAILY           ₹250.00
-2     TRAVEL          TRANSPORT       ₹100.00
-3     food            daily           ₹2000.00
-4     travel          transport       ₹5000.00
+---
 
-1. Add Expense
-2. View Expenses
-3. Total Expense
-4. Delete Expense
-5. Filter by Category
-6. Exit
-Enter choice: 3
-Total Expense: ₹7350.00
+## 🛠️ Tech Stack
 
-1. Add Expense
-2. View Expenses
-3. Total Expense
-4. Delete Expense
-5. Filter by Category
-6. Exit
-Enter choice: 5
-Enter category: daily
-FOOD - ₹250.0
-food - ₹2000.0
+* **Java**
+* **Object-Oriented Programming (OOP)**
+* **ArrayList (Dynamic Data Handling)**
+* **File Handling (BufferedReader, FileWriter)**
 
+---
+
+## 📂 Project Structure
+
+* `model/` → Expense data class
+* `service/` → Business logic & file handling
+* `main/` → User interaction (menu-driven system)
+
+---
+
+## ▶️ How to Run
+
+1. Open project in any IDE (VS Code / IntelliJ)
+2. Run `Main.java`
+3. Follow the menu options in terminal
+
+---
+
+## 📸 Sample Output
+
+*(Add your screenshot here 👇)*
+
+---
+
+## 🔮 Future Improvements
+
+* 🗄️ Database integration (MySQL)
+* 🌐 REST API using Spring Boot
+* 🎨 GUI (JavaFX / Web Interface)
+
+---
+
+## 👨‍💻 Author
+
+**Arpit Srivastava**
+Aspiring Backend Developer 🚀
