@@ -40,11 +40,6 @@ A clean and efficient **console-based Expense Tracker** built using **Java**, im
 
 ---
 
-## 📸 Sample Output
-
-*(Add your screenshot here 👇)*
-
----
 
 ## 🔮 Future Improvements
 
