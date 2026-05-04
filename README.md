@@ -1,6 +1,6 @@
 # 💸 Java Expense Tracker
 
-A clean and efficient **console-based Expense Tracker** built using **Java**, implementing core backend concepts like **OOP, File Handling, and CRUD operations**.
+A console-based Expense Tracker built using Java with file-based persistence and modular OOP design for real-world financial tracking.
 
 ---
 
